@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "personal": {
+      "title": "Name",
+      "content": "Melanie Hicks",
+      "image": "/images/people/girl2.jpg"
+    },
+    "professional": {
+      "title": "Company and Position",
+      "company": "Daily.D",
+      "position": "Marketing Director"
+    }
+  },
+  {
+    "id": 2,
+    "personal": {
+      "title": "Name",
+      "content": "Audrey Flores",
+      "image": "/images/people/girl.jpg"
+    },
+    "professional": {
+      "title": "Company and Position",
+      "company": "DesignPropm",
+      "position": "UI/UX Designer"
+    }
+  },
+    {
+      "id": 3,
+      "personal": {
+        "title": "Name",
+        "content": "Wade Warren",
+        "image": "/images/people/boy1.jpg"
+      },
+      "professional": {
+        "title": "Company and Position",
+        "company": "Vidss",
+        "position": "Lead Developer"
+      }
+    }
+  ]
