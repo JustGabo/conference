@@ -3,13 +3,16 @@
       "id": 1,
       "personal": {
       "title": "Name",
-      "content": "Melanie Hicks",
-      "image": "/images/people/girl2.jpg"
+      "content": "Clementine Hicks",
+      "image": "/images/people/girl2.jpg",
+      "city": "New York"
     },
     "professional": {
       "title": "Company and Position",
       "company": "Daily.D",
-      "position": "Marketing Director"
+      "position": "Marketing Director",
+      "gallery": "/images/chica.avif",
+      "objective": "Orchestrated comprehensive marketing strategies that elevated Daily.D's market presence, resulting in 127% growth in user engagement. Led successful rebranding initiatives and implemented data-driven campaigns that captured 45% more B2B partnerships within 12 months."
     }
   },
   {
@@ -17,12 +20,15 @@
     "personal": {
       "title": "Name",
       "content": "Audrey Flores",
-      "image": "/images/people/girl.jpg"
+      "image": "/images/people/girl.jpg",
+      "city": "Chicago"
     },
     "professional": {
       "title": "Company and Position",
       "company": "DesignPropm",
-      "position": "UI/UX Designer"
+      "position": "UI/UX Designer",
+      "gallery": "/images/mujer.avif",
+      "objective": "Revolutionized user experience for DesignPropm's flagship product, reducing user drop-off by 60% and increasing customer satisfaction scores to 4.8/5. Designed and implemented an innovative design system used across 20+ enterprise clients."
     }
   },
     {
@@ -30,12 +36,15 @@
       "personal": {
         "title": "Name",
         "content": "Wade Warren",
-        "image": "/images/people/boy1.jpg"
+        "image": "/images/people/boy1.jpg",
+        "city": "Miami"
       },
       "professional": {
         "title": "Company and Position",
         "company": "Vidss",
-        "position": "Lead Developer"
+        "position": "Lead Developer",
+      "gallery": "/images/hombre.avif",
+        "objective": "Spearheaded the development of Vidss's next-generation video processing platform, achieving 3x faster rendering speeds and 40% reduced cloud costs. Led a team of 12 developers to successfully deliver 4 major product releases ahead of schedule."
       }
     }
   ]

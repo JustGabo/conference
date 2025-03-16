@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { useProjectContext } from "../../context/projectContext";
 import data from "../../../data.json";
+import SelectedDetails from "../selected-details";
 
 const Slider = () => {
   const { current, setCurrent, setProject } = useProjectContext();
@@ -15,6 +16,7 @@ const Slider = () => {
     const foundProject = data.find((item) => item.id === id);
     setProject(foundProject || null);
     setClickedImageId(id);
+    console.log(foundProject)
     setTimeout(() => setClickedImageId(null), 500); // Regresa a la normalidad después de 0.5s
   };
 
@@ -23,7 +25,7 @@ const Slider = () => {
   }, [current]);
 
   return (
-    <div className="bg-neutral-300 overflow-hidden px-10 h-[100dvh] flex items-center justify-center">
+    <div className="bg-neutral-300 relative overflow-hidden px-10 h-[100dvh] flex items-center justify-center">
       <div className="flex gap-60 items-end h-[90%] w-full justify-between">
         <div className="flex flex-col w-[20%] gap-7">
           <div className="w-[150px] h-[2px] rounded-full bg-gray-400" />
@@ -132,6 +134,7 @@ const Slider = () => {
           </div>
         </div>
       </div>
+      <SelectedDetails/>
     </div>
   );
 };
